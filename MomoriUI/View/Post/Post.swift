@@ -9,9 +9,30 @@ import SwiftUI
 
 struct Post: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Rectangle()
+            .foregroundColor(.gray)
+            // 색 조정 필요
+            .frame(width: 350, height: 650)
+            .cornerRadius(10)
+            .overlay {
+                VStack {
+                    UserNamebar()
+
+                    Image("TestImage")
+                        .resizable()
+                        .frame(width: 350, height: 260)
+
+                    ImageUnderbar()
+
+                    Spacer()
+                    
+                    CommentInputView()
+
+                }
+            }
     }
 }
+
 
 #Preview {
     Post()

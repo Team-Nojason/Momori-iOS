@@ -27,7 +27,7 @@ struct Profile: View {
                     .overlay {
                         Circle().stroke(.white, lineWidth: 2)
                     }
-                    .shadow(radius: 5)
+                    .shadow(radius: 1)
                     .padding(EdgeInsets(top:10, leading: 0, bottom: 0, trailing: 0))
                     .overlay(
                         ZStack {

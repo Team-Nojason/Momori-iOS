@@ -20,6 +20,9 @@
 		75A501992ADAB4260045785B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501982ADAB4260045785B /* Post.swift */; };
 		75A5019C2ADAB49B0045785B /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5019B2ADAB49B0045785B /* Upload.swift */; };
 		75A501C22ADE7CA00045785B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501C12ADE7CA00045785B /* Colors.swift */; };
+		75A501C42ADE82910045785B /* UserNamebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501C32ADE82910045785B /* UserNamebar.swift */; };
+		75A501C82ADE9C8E0045785B /* ImageUnderbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501C72ADE9C8E0045785B /* ImageUnderbar.swift */; };
+		75A501CA2ADEA34E0045785B /* CommentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501C92ADEA34E0045785B /* CommentInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		75A501982ADAB4260045785B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		75A5019B2ADAB49B0045785B /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
 		75A501C12ADE7CA00045785B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		75A501C32ADE82910045785B /* UserNamebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNamebar.swift; sourceTree = "<group>"; };
+		75A501C72ADE9C8E0045785B /* ImageUnderbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUnderbar.swift; sourceTree = "<group>"; };
+		75A501C92ADEA34E0045785B /* CommentInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				75A501982ADAB4260045785B /* Post.swift */,
+				75A501C32ADE82910045785B /* UserNamebar.swift */,
+				75A501C72ADE9C8E0045785B /* ImageUnderbar.swift */,
+				75A501C92ADEA34E0045785B /* CommentInputView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -227,11 +236,14 @@
 				75A501952ADAB4060045785B /* Profile.swift in Sources */,
 				75A501752ADA8EAF0045785B /* ContentView.swift in Sources */,
 				75A501842ADA93980045785B /* RNavi.swift in Sources */,
+				75A501C42ADE82910045785B /* UserNamebar.swift in Sources */,
 				75A501732ADA8EAF0045785B /* MomoriUIApp.swift in Sources */,
 				75A501922ADAB3DC0045785B /* Setting.swift in Sources */,
 				75A5019C2ADAB49B0045785B /* Upload.swift in Sources */,
+				75A501CA2ADEA34E0045785B /* CommentInputView.swift in Sources */,
 				75A501992ADAB4260045785B /* Post.swift in Sources */,
 				75A501882ADA9AB10045785B /* UserNavi.swift in Sources */,
+				75A501C82ADE9C8E0045785B /* ImageUnderbar.swift in Sources */,
 				75A501902ADA9B350045785B /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
