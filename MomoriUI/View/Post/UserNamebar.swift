@@ -12,7 +12,7 @@ struct UserNamebar: View {
     var body: some View {
         HStack{
             Rectangle()
-                .foregroundColor(.gray)
+                .foregroundColor(.white)
                 .frame(width: 350, height: 45)
                 .cornerRadius(10, corners: [.topLeft, .topRight]) 
                 .overlay {
@@ -38,6 +38,7 @@ struct UserNamebar: View {
                         .font(.system(size: 10))
                         .padding(.leading,210)
                         .foregroundColor(Colors.Gray1.color)
+                    
                     
                     
                     

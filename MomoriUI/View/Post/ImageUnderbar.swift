@@ -13,7 +13,7 @@ struct ImageUnderbar: View {
             HStack{
                 Rectangle()
                     .frame(width: 350, height: 45)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.white)
 
 
             }

@@ -10,7 +10,7 @@ import SwiftUI
 struct Post: View {
     var body: some View {
         Rectangle()
-            .foregroundColor(.gray)
+            .foregroundColor(.white)
             // 색 조정 필요
             .frame(width: 350, height: 650)
             .cornerRadius(10)

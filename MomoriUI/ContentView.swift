@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        ZStack {
+            KakaoMapVCWrapper()
+                .edgesIgnoringSafeArea(.all)
+            
             MainPage()
         }
-        .padding()
+    
     }
 }
 

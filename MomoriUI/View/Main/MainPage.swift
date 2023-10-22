@@ -54,12 +54,12 @@ struct MainPage: View {
             Spacer()
             
             Button{
-                isShowingUpload = true
+            isShowingUpload = true
             }label: {
                 RNavi()
             }
             
-            .sheet(isPresented:$isShowingUpload) {
+            .sheet(isPresented:$isShowingUpload){
                 Upload(isShowingUpload:$isShowingUpload)
             }
             
