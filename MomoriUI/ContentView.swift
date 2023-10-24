@@ -10,10 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            KakaoMapVCWrapper()
-                .edgesIgnoringSafeArea(.all)
-            
-            MainPage()
+//            KakaoMapVCWrapper()
+//                .edgesIgnoringSafeArea(.all)
+//            
+//            MainPage()
+            Login()
+
+
         }
     
     }

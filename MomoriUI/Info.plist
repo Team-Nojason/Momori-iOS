@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.984777438583-18g6f35ie4pjaj1c04e2aq15sag9prgb</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>984777438583-18g6f35ie4pjaj1c04e2aq15sag9prgb.apps.googleusercontent.com</string>
 	<key>KAKAO_APP_KEY</key>
 	<string>f3000c7055abd894c24906e13bbbdc2d</string>
 	<key>UIBackgroundModes</key>
