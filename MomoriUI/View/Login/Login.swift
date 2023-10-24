@@ -12,6 +12,7 @@ struct Login: View {
     @State private var Start = false
     @State private var isGLoggedin = false
     
+    
     var body: some View {
         NavigationView{
             VStack{
@@ -35,21 +36,19 @@ struct Login: View {
                 
                 
                 Spacer()
-                
-                
-                if !isGLoggedin{
-                    GoogleSignIn(isGLogined:$isGLoggedin,
-                                 userData: UserData(url: URL(string:""), name:"", email:""))
-                }else{
-                    NavigationLink(destination : MainPage()){
+                HStack{
+                    NavigationLink(destination : MainPage(), isActive : $isGLoggedin){
                         GoogleSignIn(isGLogined:$isGLoggedin,
                                      userData: UserData(url: URL(string:""), name:"", email:""))
                     }
+                    
+                    }
+                
                 }
+
             }
         }
     }
-}
 
 
 

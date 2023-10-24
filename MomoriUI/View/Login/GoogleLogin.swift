@@ -16,13 +16,16 @@ struct GoogleSignIn: View {
 //    @State private var isLogined = false
     @Binding var isGLogined: Bool
     // 유저 데이터
+    
     @State private var userData:UserData
     // 팝업용
     @State private var isAlert = false
     
+    
     public init(isGLogined: Binding<Bool>, userData: UserData) {
             _isGLogined = isGLogined
             _userData = State(initialValue: userData)
+      
         }
         
     var body: some View {
@@ -43,7 +46,7 @@ struct GoogleSignIn: View {
 //            
         }
         .onAppear(perform: {
-            // 로그인 상태 체크
+//            // 로그인 상태 체크
             checkState()
         })
         .alert(LocalizedStringKey("로그인 실패"), isPresented: $isAlert) {
@@ -53,22 +56,24 @@ struct GoogleSignIn: View {
         }
     }
     // 상태 체크
+
     func checkState() {
         GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
             if error != nil || user == nil {
-                // 로그아웃 상태
+                // Always set to false when the view appears.
+                isGLogined = false
                 print("Not Sign In")
             } else {
-                // 로그인 상태
+                // Do not change isGLogined here.
+                
                 guard let profile = user?.profile else { return }
                 let data = UserData(url: profile.imageURL(withDimension: 180), name: profile.name, email: profile.email)
                 userData = data
-                isGLogined = true
+                
                 print(isGLogined)
             }
         }
-    }
-    // 구글 로그인
+    }    // 구글 로그인
     func googleLogin() {
         // rootViewController
         guard let presentingViewController = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.rootViewController else { return }

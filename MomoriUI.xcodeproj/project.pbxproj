@@ -24,6 +24,7 @@
 		75320BD92AE7B52000465860 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 75320BD82AE7B52000465860 /* GoogleSignIn */; };
 		75320BDB2AE7B52000465860 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 75320BDA2AE7B52000465860 /* GoogleSignInSwift */; };
 		75320BDD2AE7B67D00465860 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75320BDC2AE7B67D00465860 /* UserData.swift */; };
+		756848F92AE7D6DB003A5209 /* NaverLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756848F82AE7D6DB003A5209 /* NaverLogin.swift */; };
 		75A501732ADA8EAF0045785B /* MomoriUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501722ADA8EAF0045785B /* MomoriUIApp.swift */; };
 		75A501752ADA8EAF0045785B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501742ADA8EAF0045785B /* ContentView.swift */; };
 		75A501772ADA8EB00045785B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A501762ADA8EB00045785B /* Assets.xcassets */; };
@@ -82,6 +83,7 @@
 		75320B972AE7AED700465860 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		75320B9A2AE7AED700465860 /* GoogleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLogin.swift; sourceTree = "<group>"; };
 		75320BDC2AE7B67D00465860 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		756848F82AE7D6DB003A5209 /* NaverLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLogin.swift; sourceTree = "<group>"; };
 		75A5016F2ADA8EAF0045785B /* MomoriUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomoriUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A501722ADA8EAF0045785B /* MomoriUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoriUIApp.swift; sourceTree = "<group>"; };
 		75A501742ADA8EAF0045785B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			children = (
 				75320B972AE7AED700465860 /* Login.swift */,
 				75320B9A2AE7AED700465860 /* GoogleLogin.swift */,
+				756848F82AE7D6DB003A5209 /* NaverLogin.swift */,
 				75320BDC2AE7B67D00465860 /* UserData.swift */,
 			);
 			path = Login;
@@ -498,6 +501,7 @@
 				75A501752ADA8EAF0045785B /* ContentView.swift in Sources */,
 				75A501842ADA93980045785B /* RNavi.swift in Sources */,
 				75A501C42ADE82910045785B /* UserNamebar.swift in Sources */,
+				756848F92AE7D6DB003A5209 /* NaverLogin.swift in Sources */,
 				75A501732ADA8EAF0045785B /* MomoriUIApp.swift in Sources */,
 				75F89B802AE552AE0045FCE5 /* KakaoMapVCWrapper.swift in Sources */,
 				75A501922ADAB3DC0045785B /* Setting.swift in Sources */,
