@@ -10,12 +10,11 @@ import AuthenticationServices
 
 struct Login: View {
     @State private var Start = false
-    @State private var isGLoggedin = false
-    
+    @State private var isGLogined = false
     
     var body: some View {
         NavigationView{
-            VStack{
+            VStack {
 
                 Text("Momori")
                     .foregroundColor(.black)
@@ -23,7 +22,7 @@ struct Login: View {
                     .opacity(0.5)
                     .padding(.bottom,80)
                 
-                Text("당신의 \n추억을 \n공유해보세요 🔥")
+                Text("당신의 추억을 공유해보세요 🔥")
                     .foregroundColor(.black)
                     .font(.system(size: 30, design: .rounded))
                     .bold()
@@ -31,27 +30,14 @@ struct Login: View {
                     .padding(.trailing,70)
                     .padding(.bottom,50)
                 
-                
-                
-                
-                
                 Spacer()
-                HStack{
-                    NavigationLink(destination : MainPage(), isActive : $isGLoggedin){
-                        GoogleSignIn(isGLogined:$isGLoggedin,
-                                     userData: UserData(url: URL(string:""), name:"", email:""))
-                    }
-                    
-                    }
                 
+                HStack {
+                    NavigationLink(destination : MainPage(), isActive : $isGLogined) {
+                        GoogleSignInView(isGLogined: $isGLogined, userData: UserData(url: URL(string:""), name:"", email:""))
+                    }
                 }
-
             }
         }
     }
-
-
-
-#Preview {
-    Login()
 }
