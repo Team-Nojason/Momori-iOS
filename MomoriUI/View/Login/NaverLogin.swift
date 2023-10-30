@@ -16,10 +16,12 @@ struct NaverLogin : View{
             }, label: {
                 Image("Naver")  // Replace with your Google logo image name.
                     .resizable()
+                    .aspectRatio(contentMode: .fit) 
                     .frame(width: 70, height: 50, alignment: .center)
                     .background(Color.white)
                     .clipShape(Circle())
-                    .padding(20)
+                    .padding(10)
+                    .shadow(color: Color.gray.opacity(0.3), radius: 5, x: 1, y: 2)
             })
             
             

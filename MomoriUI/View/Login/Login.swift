@@ -40,6 +40,7 @@ struct Login: View {
                     
                     NaverLogin()
                 }
+                .padding(.bottom,30)
             }
         }
     }
