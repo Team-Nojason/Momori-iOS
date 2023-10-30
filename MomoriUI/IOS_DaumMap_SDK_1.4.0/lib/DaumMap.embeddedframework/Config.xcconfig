@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  MomoriUI
+//
+//  Created by dgsw8th61 on 10/28/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+KAKAO_NATIVE_APP_KEY = 858e9e793fc6c3f9b315843f39f9cca9

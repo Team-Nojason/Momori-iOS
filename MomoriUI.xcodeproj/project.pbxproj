@@ -25,6 +25,12 @@
 		75320BDD2AE7B67D00465860 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75320BDC2AE7B67D00465860 /* UserData.swift */; };
 		756848F92AE7D6DB003A5209 /* NaverLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756848F82AE7D6DB003A5209 /* NaverLogin.swift */; };
 		7585D1A12AED31DD00C5E988 /* GoogleSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */; };
+		7585D1A42AED43AA00C5E988 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A32AED43AA00C5E988 /* KakaoSDK */; };
+		7585D1A62AED43AA00C5E988 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A52AED43AA00C5E988 /* KakaoSDKAuth */; };
+		7585D1A82AED43AA00C5E988 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A72AED43AA00C5E988 /* KakaoSDKCert */; };
+		7585D1AA2AED43AA00C5E988 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A92AED43AA00C5E988 /* KakaoSDKCertCore */; };
+		7585D1AC2AED43AA00C5E988 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1AB2AED43AA00C5E988 /* KakaoSDKCommon */; };
+		7585D1AF2AED4DD000C5E988 /* KakaoLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */; };
 		75A501732ADA8EAF0045785B /* MomoriUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501722ADA8EAF0045785B /* MomoriUIApp.swift */; };
 		75A501752ADA8EAF0045785B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501742ADA8EAF0045785B /* ContentView.swift */; };
 		75A501772ADA8EB00045785B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A501762ADA8EB00045785B /* Assets.xcassets */; };
@@ -84,6 +90,8 @@
 		75320BDC2AE7B67D00465860 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		756848F82AE7D6DB003A5209 /* NaverLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLogin.swift; sourceTree = "<group>"; };
 		7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInView.swift; sourceTree = "<group>"; };
+		7585D1AD2AED46AC00C5E988 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLogin.swift; sourceTree = "<group>"; };
 		75A5016F2ADA8EAF0045785B /* MomoriUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomoriUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A501722ADA8EAF0045785B /* MomoriUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoriUIApp.swift; sourceTree = "<group>"; };
 		75A501742ADA8EAF0045785B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,12 +168,15 @@
 				75320BC82AE7B4FB00465860 /* FirebaseAppCheck in Frameworks */,
 				75F89B752AE54FAE0045FCE5 /* QuartzCore.framework in Frameworks */,
 				75F89B7C2AE550200045FCE5 /* libsqlite3.tbd in Frameworks */,
+				7585D1A42AED43AA00C5E988 /* KakaoSDK in Frameworks */,
 				75320BC42AE7B4FB00465860 /* FirebaseAnalyticsSwift in Frameworks */,
 				75320BD22AE7B4FB00465860 /* FirebaseDatabase in Frameworks */,
 				75F89B772AE54FCD0045FCE5 /* libc++.tbd in Frameworks */,
 				75F89B6E2AE54F520045FCE5 /* DaumMap.framework in Frameworks */,
 				75320BCA2AE7B4FB00465860 /* FirebaseAppDistribution-Beta in Frameworks */,
 				75F89B7D2AE5502B0045FCE5 /* libxml2.tbd in Frameworks */,
+				7585D1AA2AED43AA00C5E988 /* KakaoSDKCertCore in Frameworks */,
+				7585D1AC2AED43AA00C5E988 /* KakaoSDKCommon in Frameworks */,
 				75320BC62AE7B4FB00465860 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				75F89B732AE54FA00045FCE5 /* SystemConfiguration.framework in Frameworks */,
 				75320BD42AE7B4FB00465860 /* FirebaseDatabaseSwift in Frameworks */,
@@ -177,6 +188,8 @@
 				75320BD62AE7B4FB00465860 /* FirebaseDynamicLinks in Frameworks */,
 				75320BD92AE7B52000465860 /* GoogleSignIn in Frameworks */,
 				75320BDB2AE7B52000465860 /* GoogleSignInSwift in Frameworks */,
+				7585D1A62AED43AA00C5E988 /* KakaoSDKAuth in Frameworks */,
+				7585D1A82AED43AA00C5E988 /* KakaoSDKCert in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +203,7 @@
 				7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */,
 				756848F82AE7D6DB003A5209 /* NaverLogin.swift */,
 				75320BDC2AE7B67D00465860 /* UserData.swift */,
+				7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -216,12 +230,12 @@
 			children = (
 				75F89B2C2AE54F510045FCE5 /* DaumMap.embeddedframework */,
 				75F898F92AE23E130045FCE5 /* Info.plist */,
+				75A501722ADA8EAF0045785B /* MomoriUIApp.swift */,
 				75F89B7E2AE551630045FCE5 /* KakaoBridgeHeader.h */,
 				75F89B7F2AE552AE0045FCE5 /* KakaoMapVCWrapper.swift */,
 				75A501742ADA8EAF0045785B /* ContentView.swift */,
 				75A501C12ADE7CA00045785B /* Colors.swift */,
 				75A5018A2ADA9AFA0045785B /* View */,
-				75A501722ADA8EAF0045785B /* MomoriUIApp.swift */,
 				75A501762ADA8EB00045785B /* Assets.xcassets */,
 				75A501782ADA8EB00045785B /* MomoriUI.entitlements */,
 				75A501792ADA8EB00045785B /* Preview Content */,
@@ -307,6 +321,7 @@
 		75F89B2C2AE54F510045FCE5 /* DaumMap.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
+				7585D1AD2AED46AC00C5E988 /* Config.xcconfig */,
 				75F89B2D2AE54F510045FCE5 /* Resources */,
 				75F89B522AE54F520045FCE5 /* DaumMap.framework */,
 			);
@@ -409,6 +424,11 @@
 				75320BD52AE7B4FB00465860 /* FirebaseDynamicLinks */,
 				75320BD82AE7B52000465860 /* GoogleSignIn */,
 				75320BDA2AE7B52000465860 /* GoogleSignInSwift */,
+				7585D1A32AED43AA00C5E988 /* KakaoSDK */,
+				7585D1A52AED43AA00C5E988 /* KakaoSDKAuth */,
+				7585D1A72AED43AA00C5E988 /* KakaoSDKCert */,
+				7585D1A92AED43AA00C5E988 /* KakaoSDKCertCore */,
+				7585D1AB2AED43AA00C5E988 /* KakaoSDKCommon */,
 			);
 			productName = MomoriUI;
 			productReference = 75A5016F2ADA8EAF0045785B /* MomoriUI.app */;
@@ -441,6 +461,7 @@
 			packageReferences = (
 				75320BBE2AE7B4FB00465860 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				75320BD72AE7B52000465860 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
 			);
 			productRefGroup = 75A501702ADA8EAF0045785B /* Products */;
 			projectDirPath = "";
@@ -510,6 +531,7 @@
 				75A501CA2ADEA34E0045785B /* CommentInputView.swift in Sources */,
 				75A501992ADAB4260045785B /* Post.swift in Sources */,
 				75320BDD2AE7B67D00465860 /* UserData.swift in Sources */,
+				7585D1AF2AED4DD000C5E988 /* KakaoLogin.swift in Sources */,
 				75A501882ADA9AB10045785B /* UserNavi.swift in Sources */,
 				75A501C82ADE9C8E0045785B /* ImageUnderbar.swift in Sources */,
 				75A501902ADA9B350045785B /* MainPage.swift in Sources */,
@@ -770,6 +792,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.18.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -842,6 +872,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 75320BD72AE7B52000465860 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		7585D1A32AED43AA00C5E988 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		7585D1A52AED43AA00C5E988 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		7585D1A72AED43AA00C5E988 /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		7585D1A92AED43AA00C5E988 /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		7585D1AB2AED43AA00C5E988 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

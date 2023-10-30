@@ -30,13 +30,15 @@ struct GoogleSignInView: View {
     var body: some View {
         ZStack {
             Button(action: googleLogin) {
-                Image("Google_logo")  // Replace with your Google logo image name.
+                Image("Google_logo")
                     .resizable()
                     .frame(width: 70, height: 50, alignment: .center)
                     .background(Color.white)
                     .clipShape(Circle())
             }
-            .padding(20)
+            .padding(10)
+            .shadow(color: Color.gray.opacity(0.3), radius: 5, x: 1, y: 2) // 그림자 추가
+
         }
         .alert(LocalizedStringKey("로그인 실패"), isPresented: $isAlert) {
             Text("확인")
