@@ -23,6 +23,8 @@
 		75320BD92AE7B52000465860 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 75320BD82AE7B52000465860 /* GoogleSignIn */; };
 		75320BDB2AE7B52000465860 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 75320BDA2AE7B52000465860 /* GoogleSignInSwift */; };
 		75320BDD2AE7B67D00465860 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75320BDC2AE7B67D00465860 /* UserData.swift */; };
+		75490D5B2AF0ECE3004CCC9E /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75490D5A2AF0ECE3004CCC9E /* Key.swift */; };
+		75490D5D2AF0ED27004CCC9E /* SecureAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75490D5C2AF0ED27004CCC9E /* SecureAPIKeys.plist */; };
 		756848F92AE7D6DB003A5209 /* NaverLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756848F82AE7D6DB003A5209 /* NaverLogin.swift */; };
 		7585D1A12AED31DD00C5E988 /* GoogleSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */; };
 		7585D1A42AED43AA00C5E988 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A32AED43AA00C5E988 /* KakaoSDK */; };
@@ -88,6 +90,8 @@
 /* Begin PBXFileReference section */
 		75320B972AE7AED700465860 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		75320BDC2AE7B67D00465860 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		75490D5A2AF0ECE3004CCC9E /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		75490D5C2AF0ED27004CCC9E /* SecureAPIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SecureAPIKeys.plist; sourceTree = "<group>"; };
 		756848F82AE7D6DB003A5209 /* NaverLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLogin.swift; sourceTree = "<group>"; };
 		7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInView.swift; sourceTree = "<group>"; };
 		7585D1AD2AED46AC00C5E988 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
@@ -230,9 +234,11 @@
 			children = (
 				75F89B2C2AE54F510045FCE5 /* DaumMap.embeddedframework */,
 				75F898F92AE23E130045FCE5 /* Info.plist */,
+				75490D5C2AF0ED27004CCC9E /* SecureAPIKeys.plist */,
 				75A501722ADA8EAF0045785B /* MomoriUIApp.swift */,
 				75F89B7E2AE551630045FCE5 /* KakaoBridgeHeader.h */,
 				75F89B7F2AE552AE0045FCE5 /* KakaoMapVCWrapper.swift */,
+				75490D5A2AF0ECE3004CCC9E /* Key.swift */,
 				75A501742ADA8EAF0045785B /* ContentView.swift */,
 				75A501C12ADE7CA00045785B /* Colors.swift */,
 				75A5018A2ADA9AFA0045785B /* View */,
@@ -477,6 +483,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75490D5D2AF0ED27004CCC9E /* SecureAPIKeys.plist in Resources */,
 				75F89B652AE54F520045FCE5 /* info_box_tail.png in Resources */,
 				75F89B5A2AE54F520045FCE5 /* map_pin_shadow@3x.png in Resources */,
 				75F89B682AE54F520045FCE5 /* map_pin.png in Resources */,
@@ -530,6 +537,7 @@
 				75A5019C2ADAB49B0045785B /* Upload.swift in Sources */,
 				75A501CA2ADEA34E0045785B /* CommentInputView.swift in Sources */,
 				75A501992ADAB4260045785B /* Post.swift in Sources */,
+				75490D5B2AF0ECE3004CCC9E /* Key.swift in Sources */,
 				75320BDD2AE7B67D00465860 /* UserData.swift in Sources */,
 				7585D1AF2AED4DD000C5E988 /* KakaoLogin.swift in Sources */,
 				75A501882ADA9AB10045785B /* UserNavi.swift in Sources */,

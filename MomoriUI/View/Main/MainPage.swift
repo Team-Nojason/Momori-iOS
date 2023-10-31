@@ -13,59 +13,68 @@ struct MainPage: View {
     @State var isShowingUpload : Bool = false
     
     var body: some View {
-        VStack{
-            HStack{
+        ZStack {
+            KakaoMapVCWrapper()
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack{
+                HStack{
+                    
+                    Spacer()
+                    
+                    VStack{
+                        Button{
+                            isShowingSetting = true
+                        }label: {
+                            LNavi()
+                        }
+                        .sheet(isPresented: $isShowingSetting) {
+                            VStack{
+                                Setting()
+                            }
+                        }
+                        
+                        .padding(.bottom,10)
+                        
+                        
+                        Button{
+                            isShowingProfile = true
+                        }label: {
+                            UserNavi()
+                        }
+                        
+                        .sheet(isPresented: $isShowingProfile) {
+                            VStack{
+                                Profile()
+                                
+                            }
+                        }
+                    }
+                    
+                    
+                }
+                .padding(.top,40)
                 
                 Spacer()
                 
-                VStack{
-                    Button{
-                        isShowingSetting = true
-                    }label: {
-                        LNavi()
-                    }
-                    .sheet(isPresented: $isShowingSetting) {
-                        VStack{
-                            Setting()
-                        }
-                    }
-                    
-                    .padding(.bottom,10)
-                    
-                    
-                    Button{
-                        isShowingProfile = true
-                    }label: {
-                        UserNavi()
-                    }
-                    
-                    .sheet(isPresented: $isShowingProfile) {
-                        VStack{
-                            Profile()
-                            
-                        }
-                    }
+                Button{
+                isShowingUpload = true
+                }label: {
+                    RNavi()
+                }
+                
+                .sheet(isPresented:$isShowingUpload){
+                    Upload(isShowingUpload:$isShowingUpload)
                 }
                 
                 
+                
             }
-            .padding(.top,40)
-            
-            Spacer()
-            
-            Button{
-            isShowingUpload = true
-            }label: {
-                RNavi()
-            }
-            
-            .sheet(isPresented:$isShowingUpload){
-                Upload(isShowingUpload:$isShowingUpload)
-            }
-            
-            
-            
+
+
+
         }
+
     }
 }
 

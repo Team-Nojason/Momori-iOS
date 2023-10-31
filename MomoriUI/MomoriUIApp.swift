@@ -11,9 +11,12 @@ import KakaoSDKAuth
 
 @main
 struct MomoriUIApp: App {
+    
+    let appKey = Bundle.main.apiKey
+    
     init() {
            // Kakao SDK 초기화
-           KakaoSDK.initSDK(appKey:"[858e9e793fc6c3f9b315843f39f9cca9]")
+           KakaoSDK.initSDK(appKey:appKey)
        }
        
     var body: some Scene {
