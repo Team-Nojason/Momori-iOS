@@ -26,10 +26,7 @@ struct UserNamebar: View {
                                 Circle().stroke(.white, lineWidth: 2)
                             }
                             .padding(EdgeInsets(top:10, leading: 0, bottom: 10, trailing: 290))
-
-                        
                     }// 프로필
-                    
                     Text("사용자 이름")
                         .font(.system(size: 13))
                         .padding(.trailing,170)
@@ -38,9 +35,6 @@ struct UserNamebar: View {
                         .font(.system(size: 10))
                         .padding(.leading,210)
                         .foregroundColor(Colors.Gray1.color)
-                    
-                    
-                    
                     
                     Button(action: {
                         // 화면 닫히는 binding 변수 불러오기..
@@ -67,7 +61,6 @@ struct CustomCornersShape: Shape {
             byRoundingCorners: corners,
             cornerRadii: CGSize(width: radius, height: radius)
         )
-        
         return Path(path.cgPath)
     }
 }

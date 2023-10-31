@@ -15,7 +15,6 @@ struct Login: View {
     var body: some View {
         NavigationView{
             VStack {
-
                 Text("Momori")
                     .foregroundColor(.black)
                     .font(.system(size: 15))

@@ -27,8 +27,12 @@
 	<string>f3000c7055abd894c24906e13bbbdc2d</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>kakao0123456789abcdefghijklmn</string>
 		<string>kakaokompassauth</string>
-		<string>kakaolink</string>
+		<string>storykompassauth</string>
+		<string>[858e9e793fc6c3f9b315843f39f9cca9]</string>
+		<string>kakaotalk-4.5.0</string>
+		<string>kakaostory-2.9.0</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array/>

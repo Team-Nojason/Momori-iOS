@@ -25,13 +25,50 @@
 		75320BDD2AE7B67D00465860 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75320BDC2AE7B67D00465860 /* UserData.swift */; };
 		75490D5B2AF0ECE3004CCC9E /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75490D5A2AF0ECE3004CCC9E /* Key.swift */; };
 		75490D5D2AF0ED27004CCC9E /* SecureAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75490D5C2AF0ED27004CCC9E /* SecureAPIKeys.plist */; };
+		75490DB72AF11184004CCC9E /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DB62AF11184004CCC9E /* KakaoSDK */; };
+		75490DB92AF11184004CCC9E /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DB82AF11184004CCC9E /* KakaoSDKAuth */; };
+		75490DBB2AF11184004CCC9E /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DBA2AF11184004CCC9E /* KakaoSDKCert */; };
+		75490DBD2AF11184004CCC9E /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DBC2AF11184004CCC9E /* KakaoSDKCertCore */; };
+		75490DBF2AF11184004CCC9E /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DBE2AF11184004CCC9E /* KakaoSDKCommon */; };
+		75490DC12AF11184004CCC9E /* KakaoSDKFriend in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DC02AF11184004CCC9E /* KakaoSDKFriend */; };
+		75490DC32AF11184004CCC9E /* KakaoSDKFriendCore in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DC22AF11184004CCC9E /* KakaoSDKFriendCore */; };
+		75490DC52AF11184004CCC9E /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DC42AF11184004CCC9E /* KakaoSDKNavi */; };
+		75490DC72AF11184004CCC9E /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DC62AF11184004CCC9E /* KakaoSDKShare */; };
+		75490DC92AF11184004CCC9E /* KakaoSDKStory in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DC82AF11184004CCC9E /* KakaoSDKStory */; };
+		75490DCB2AF11184004CCC9E /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DCA2AF11184004CCC9E /* KakaoSDKTalk */; };
+		75490DCD2AF11184004CCC9E /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DCC2AF11184004CCC9E /* KakaoSDKTemplate */; };
+		75490DCF2AF11184004CCC9E /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 75490DCE2AF11184004CCC9E /* KakaoSDKUser */; };
+		75490E322AF114CF004CCC9E /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E0C2AF114CF004CCC9E /* map_pinup_custom@3x.png */; };
+		75490E332AF114CF004CCC9E /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E0D2AF114CF004CCC9E /* map_pin_custom.png */; };
+		75490E342AF114CF004CCC9E /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E0E2AF114CF004CCC9E /* shadow_balloon.png */; };
+		75490E352AF114CF004CCC9E /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E0F2AF114CF004CCC9E /* map_pinup.png */; };
+		75490E362AF114CF004CCC9E /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E102AF114CF004CCC9E /* detail_button.png */; };
+		75490E372AF114CF004CCC9E /* map_pin_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E112AF114CF004CCC9E /* map_pin_custom@3x.png */; };
+		75490E382AF114CF004CCC9E /* map_pinup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E122AF114CF004CCC9E /* map_pinup@3x.png */; };
+		75490E392AF114CF004CCC9E /* map_pin_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E132AF114CF004CCC9E /* map_pin_shadow@3x.png */; };
+		75490E3A2AF114CF004CCC9E /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E142AF114CF004CCC9E /* copyright.png */; };
+		75490E3B2AF114CF004CCC9E /* th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E152AF114CF004CCC9E /* th_line.png */; };
+		75490E3C2AF114CF004CCC9E /* map_pin_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E162AF114CF004CCC9E /* map_pin_red@3x.png */; };
+		75490E3D2AF114CF004CCC9E /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E172AF114CF004CCC9E /* daum_copyright.png */; };
+		75490E3E2AF114CF004CCC9E /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E182AF114CF004CCC9E /* map_pin@3x.png */; };
+		75490E3F2AF114CF004CCC9E /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E192AF114CF004CCC9E /* map_present_tracking.png */; };
+		75490E402AF114CF004CCC9E /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E1A2AF114CF004CCC9E /* map_pin_red.png */; };
+		75490E412AF114CF004CCC9E /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E242AF114CF004CCC9E /* info_box.png */; };
+		75490E422AF114CF004CCC9E /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E252AF114CF004CCC9E /* point_sprite.png */; };
+		75490E432AF114CF004CCC9E /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E262AF114CF004CCC9E /* map_pinup_custom.png */; };
+		75490E442AF114CF004CCC9E /* info_box_tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E272AF114CF004CCC9E /* info_box_tail.png */; };
+		75490E452AF114CF004CCC9E /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E282AF114CF004CCC9E /* noimage256.png */; };
+		75490E462AF114CF004CCC9E /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E292AF114CF004CCC9E /* map_present_direction.png */; };
+		75490E472AF114CF004CCC9E /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E2A2AF114CF004CCC9E /* map_pin.png */; };
+		75490E482AF114CF004CCC9E /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E2B2AF114CF004CCC9E /* map_present.png */; };
+		75490E492AF114CF004CCC9E /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E2C2AF114CF004CCC9E /* noimage.png */; };
+		75490E4A2AF114CF004CCC9E /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E2D2AF114CF004CCC9E /* map_present_background_update.png */; };
+		75490E4B2AF114CF004CCC9E /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E2E2AF114CF004CCC9E /* daum_th_line.png */; };
+		75490E4C2AF114CF004CCC9E /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E2F2AF114CF004CCC9E /* map_pin_shadow.png */; };
+		75490E4D2AF114CF004CCC9E /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 75490E302AF114CF004CCC9E /* Config.xcconfig */; };
+		75490E4E2AF114CF004CCC9E /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75490E312AF114CF004CCC9E /* DaumMap.framework */; };
 		756848F92AE7D6DB003A5209 /* NaverLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756848F82AE7D6DB003A5209 /* NaverLogin.swift */; };
 		7585D1A12AED31DD00C5E988 /* GoogleSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */; };
-		7585D1A42AED43AA00C5E988 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A32AED43AA00C5E988 /* KakaoSDK */; };
-		7585D1A62AED43AA00C5E988 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A52AED43AA00C5E988 /* KakaoSDKAuth */; };
-		7585D1A82AED43AA00C5E988 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A72AED43AA00C5E988 /* KakaoSDKCert */; };
-		7585D1AA2AED43AA00C5E988 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1A92AED43AA00C5E988 /* KakaoSDKCertCore */; };
-		7585D1AC2AED43AA00C5E988 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 7585D1AB2AED43AA00C5E988 /* KakaoSDKCommon */; };
 		7585D1AF2AED4DD000C5E988 /* KakaoLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */; };
 		75A501732ADA8EAF0045785B /* MomoriUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501722ADA8EAF0045785B /* MomoriUIApp.swift */; };
 		75A501752ADA8EAF0045785B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501742ADA8EAF0045785B /* ContentView.swift */; };
@@ -49,34 +86,6 @@
 		75A501C42ADE82910045785B /* UserNamebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501C32ADE82910045785B /* UserNamebar.swift */; };
 		75A501C82ADE9C8E0045785B /* ImageUnderbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501C72ADE9C8E0045785B /* ImageUnderbar.swift */; };
 		75A501CA2ADEA34E0045785B /* CommentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A501C92ADEA34E0045785B /* CommentInputView.swift */; };
-		75F89B532AE54F520045FCE5 /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B2E2AE54F510045FCE5 /* map_pinup_custom@3x.png */; };
-		75F89B542AE54F520045FCE5 /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B2F2AE54F510045FCE5 /* map_pin_custom.png */; };
-		75F89B552AE54F520045FCE5 /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B302AE54F510045FCE5 /* shadow_balloon.png */; };
-		75F89B562AE54F520045FCE5 /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B312AE54F510045FCE5 /* map_pinup.png */; };
-		75F89B572AE54F520045FCE5 /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B322AE54F510045FCE5 /* detail_button.png */; };
-		75F89B582AE54F520045FCE5 /* map_pin_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B332AE54F510045FCE5 /* map_pin_custom@3x.png */; };
-		75F89B592AE54F520045FCE5 /* map_pinup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B342AE54F510045FCE5 /* map_pinup@3x.png */; };
-		75F89B5A2AE54F520045FCE5 /* map_pin_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B352AE54F510045FCE5 /* map_pin_shadow@3x.png */; };
-		75F89B5B2AE54F520045FCE5 /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B362AE54F510045FCE5 /* copyright.png */; };
-		75F89B5C2AE54F520045FCE5 /* th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B372AE54F510045FCE5 /* th_line.png */; };
-		75F89B5D2AE54F520045FCE5 /* map_pin_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B382AE54F510045FCE5 /* map_pin_red@3x.png */; };
-		75F89B5E2AE54F520045FCE5 /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B392AE54F510045FCE5 /* daum_copyright.png */; };
-		75F89B5F2AE54F520045FCE5 /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B3A2AE54F520045FCE5 /* map_pin@3x.png */; };
-		75F89B602AE54F520045FCE5 /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B3B2AE54F520045FCE5 /* map_present_tracking.png */; };
-		75F89B612AE54F520045FCE5 /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B3C2AE54F520045FCE5 /* map_pin_red.png */; };
-		75F89B622AE54F520045FCE5 /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B462AE54F520045FCE5 /* info_box.png */; };
-		75F89B632AE54F520045FCE5 /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B472AE54F520045FCE5 /* point_sprite.png */; };
-		75F89B642AE54F520045FCE5 /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B482AE54F520045FCE5 /* map_pinup_custom.png */; };
-		75F89B652AE54F520045FCE5 /* info_box_tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B492AE54F520045FCE5 /* info_box_tail.png */; };
-		75F89B662AE54F520045FCE5 /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B4A2AE54F520045FCE5 /* noimage256.png */; };
-		75F89B672AE54F520045FCE5 /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B4B2AE54F520045FCE5 /* map_present_direction.png */; };
-		75F89B682AE54F520045FCE5 /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B4C2AE54F520045FCE5 /* map_pin.png */; };
-		75F89B692AE54F520045FCE5 /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B4D2AE54F520045FCE5 /* map_present.png */; };
-		75F89B6A2AE54F520045FCE5 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B4E2AE54F520045FCE5 /* noimage.png */; };
-		75F89B6B2AE54F520045FCE5 /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B4F2AE54F520045FCE5 /* map_present_background_update.png */; };
-		75F89B6C2AE54F520045FCE5 /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B502AE54F520045FCE5 /* daum_th_line.png */; };
-		75F89B6D2AE54F520045FCE5 /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F89B512AE54F520045FCE5 /* map_pin_shadow.png */; };
-		75F89B6E2AE54F520045FCE5 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F89B522AE54F520045FCE5 /* DaumMap.framework */; };
 		75F89B712AE54F8A0045FCE5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F89B702AE54F8A0045FCE5 /* OpenGLES.framework */; };
 		75F89B732AE54FA00045FCE5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F89B722AE54FA00045FCE5 /* SystemConfiguration.framework */; };
 		75F89B752AE54FAE0045FCE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F89B742AE54FAE0045FCE5 /* QuartzCore.framework */; };
@@ -92,9 +101,45 @@
 		75320BDC2AE7B67D00465860 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		75490D5A2AF0ECE3004CCC9E /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		75490D5C2AF0ED27004CCC9E /* SecureAPIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SecureAPIKeys.plist; sourceTree = "<group>"; };
+		75490E0C2AF114CF004CCC9E /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
+		75490E0D2AF114CF004CCC9E /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
+		75490E0E2AF114CF004CCC9E /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
+		75490E0F2AF114CF004CCC9E /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
+		75490E102AF114CF004CCC9E /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
+		75490E112AF114CF004CCC9E /* map_pin_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_custom@3x.png"; sourceTree = "<group>"; };
+		75490E122AF114CF004CCC9E /* map_pinup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup@3x.png"; sourceTree = "<group>"; };
+		75490E132AF114CF004CCC9E /* map_pin_shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_shadow@3x.png"; sourceTree = "<group>"; };
+		75490E142AF114CF004CCC9E /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
+		75490E152AF114CF004CCC9E /* th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = th_line.png; sourceTree = "<group>"; };
+		75490E162AF114CF004CCC9E /* map_pin_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_red@3x.png"; sourceTree = "<group>"; };
+		75490E172AF114CF004CCC9E /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
+		75490E182AF114CF004CCC9E /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
+		75490E192AF114CF004CCC9E /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
+		75490E1A2AF114CF004CCC9E /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
+		75490E1C2AF114CF004CCC9E /* MTMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPOIItem.h; sourceTree = "<group>"; };
+		75490E1D2AF114CF004CCC9E /* MTMapCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCameraUpdate.h; sourceTree = "<group>"; };
+		75490E1E2AF114CF004CCC9E /* MTMapReverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapReverseGeoCoder.h; sourceTree = "<group>"; };
+		75490E1F2AF114CF004CCC9E /* MTMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPolyline.h; sourceTree = "<group>"; };
+		75490E202AF114CF004CCC9E /* MTMapLocationMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapLocationMarkerItem.h; sourceTree = "<group>"; };
+		75490E212AF114CF004CCC9E /* MTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapView.h; sourceTree = "<group>"; };
+		75490E222AF114CF004CCC9E /* MTMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapGeometry.h; sourceTree = "<group>"; };
+		75490E232AF114CF004CCC9E /* MTMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCircle.h; sourceTree = "<group>"; };
+		75490E242AF114CF004CCC9E /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
+		75490E252AF114CF004CCC9E /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
+		75490E262AF114CF004CCC9E /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
+		75490E272AF114CF004CCC9E /* info_box_tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box_tail.png; sourceTree = "<group>"; };
+		75490E282AF114CF004CCC9E /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
+		75490E292AF114CF004CCC9E /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
+		75490E2A2AF114CF004CCC9E /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
+		75490E2B2AF114CF004CCC9E /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
+		75490E2C2AF114CF004CCC9E /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		75490E2D2AF114CF004CCC9E /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
+		75490E2E2AF114CF004CCC9E /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
+		75490E2F2AF114CF004CCC9E /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
+		75490E302AF114CF004CCC9E /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		75490E312AF114CF004CCC9E /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = MomoriUI/IOS_DaumMap_SDK_1.4.0/lib/DaumMap.embeddedframework/DaumMap.framework; sourceTree = "<group>"; };
 		756848F82AE7D6DB003A5209 /* NaverLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLogin.swift; sourceTree = "<group>"; };
 		7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInView.swift; sourceTree = "<group>"; };
-		7585D1AD2AED46AC00C5E988 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLogin.swift; sourceTree = "<group>"; };
 		75A5016F2ADA8EAF0045785B /* MomoriUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomoriUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A501722ADA8EAF0045785B /* MomoriUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoriUIApp.swift; sourceTree = "<group>"; };
@@ -115,42 +160,6 @@
 		75A501C72ADE9C8E0045785B /* ImageUnderbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUnderbar.swift; sourceTree = "<group>"; };
 		75A501C92ADEA34E0045785B /* CommentInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputView.swift; sourceTree = "<group>"; };
 		75F898F92AE23E130045FCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		75F89B2E2AE54F510045FCE5 /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
-		75F89B2F2AE54F510045FCE5 /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
-		75F89B302AE54F510045FCE5 /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
-		75F89B312AE54F510045FCE5 /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
-		75F89B322AE54F510045FCE5 /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
-		75F89B332AE54F510045FCE5 /* map_pin_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_custom@3x.png"; sourceTree = "<group>"; };
-		75F89B342AE54F510045FCE5 /* map_pinup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup@3x.png"; sourceTree = "<group>"; };
-		75F89B352AE54F510045FCE5 /* map_pin_shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_shadow@3x.png"; sourceTree = "<group>"; };
-		75F89B362AE54F510045FCE5 /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
-		75F89B372AE54F510045FCE5 /* th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = th_line.png; sourceTree = "<group>"; };
-		75F89B382AE54F510045FCE5 /* map_pin_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_red@3x.png"; sourceTree = "<group>"; };
-		75F89B392AE54F510045FCE5 /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
-		75F89B3A2AE54F520045FCE5 /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
-		75F89B3B2AE54F520045FCE5 /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
-		75F89B3C2AE54F520045FCE5 /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
-		75F89B3E2AE54F520045FCE5 /* MTMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPOIItem.h; sourceTree = "<group>"; };
-		75F89B3F2AE54F520045FCE5 /* MTMapCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCameraUpdate.h; sourceTree = "<group>"; };
-		75F89B402AE54F520045FCE5 /* MTMapReverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapReverseGeoCoder.h; sourceTree = "<group>"; };
-		75F89B412AE54F520045FCE5 /* MTMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPolyline.h; sourceTree = "<group>"; };
-		75F89B422AE54F520045FCE5 /* MTMapLocationMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapLocationMarkerItem.h; sourceTree = "<group>"; };
-		75F89B432AE54F520045FCE5 /* MTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapView.h; sourceTree = "<group>"; };
-		75F89B442AE54F520045FCE5 /* MTMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapGeometry.h; sourceTree = "<group>"; };
-		75F89B452AE54F520045FCE5 /* MTMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCircle.h; sourceTree = "<group>"; };
-		75F89B462AE54F520045FCE5 /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
-		75F89B472AE54F520045FCE5 /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
-		75F89B482AE54F520045FCE5 /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
-		75F89B492AE54F520045FCE5 /* info_box_tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box_tail.png; sourceTree = "<group>"; };
-		75F89B4A2AE54F520045FCE5 /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
-		75F89B4B2AE54F520045FCE5 /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
-		75F89B4C2AE54F520045FCE5 /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
-		75F89B4D2AE54F520045FCE5 /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
-		75F89B4E2AE54F520045FCE5 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
-		75F89B4F2AE54F520045FCE5 /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
-		75F89B502AE54F520045FCE5 /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
-		75F89B512AE54F520045FCE5 /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
-		75F89B522AE54F520045FCE5 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
 		75F89B702AE54F8A0045FCE5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		75F89B722AE54FA00045FCE5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		75F89B742AE54FAE0045FCE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -170,30 +179,38 @@
 				75F89B792AE54FE70045FCE5 /* CoreLocation.framework in Frameworks */,
 				75320BCC2AE7B4FB00465860 /* FirebaseAuth in Frameworks */,
 				75320BC82AE7B4FB00465860 /* FirebaseAppCheck in Frameworks */,
+				75490DCF2AF11184004CCC9E /* KakaoSDKUser in Frameworks */,
 				75F89B752AE54FAE0045FCE5 /* QuartzCore.framework in Frameworks */,
 				75F89B7C2AE550200045FCE5 /* libsqlite3.tbd in Frameworks */,
-				7585D1A42AED43AA00C5E988 /* KakaoSDK in Frameworks */,
+				75490DB72AF11184004CCC9E /* KakaoSDK in Frameworks */,
 				75320BC42AE7B4FB00465860 /* FirebaseAnalyticsSwift in Frameworks */,
 				75320BD22AE7B4FB00465860 /* FirebaseDatabase in Frameworks */,
 				75F89B772AE54FCD0045FCE5 /* libc++.tbd in Frameworks */,
-				75F89B6E2AE54F520045FCE5 /* DaumMap.framework in Frameworks */,
 				75320BCA2AE7B4FB00465860 /* FirebaseAppDistribution-Beta in Frameworks */,
 				75F89B7D2AE5502B0045FCE5 /* libxml2.tbd in Frameworks */,
-				7585D1AA2AED43AA00C5E988 /* KakaoSDKCertCore in Frameworks */,
-				7585D1AC2AED43AA00C5E988 /* KakaoSDKCommon in Frameworks */,
 				75320BC62AE7B4FB00465860 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				75490DBD2AF11184004CCC9E /* KakaoSDKCertCore in Frameworks */,
+				75490DCD2AF11184004CCC9E /* KakaoSDKTemplate in Frameworks */,
+				75490DBF2AF11184004CCC9E /* KakaoSDKCommon in Frameworks */,
 				75F89B732AE54FA00045FCE5 /* SystemConfiguration.framework in Frameworks */,
+				75490DC12AF11184004CCC9E /* KakaoSDKFriend in Frameworks */,
 				75320BD42AE7B4FB00465860 /* FirebaseDatabaseSwift in Frameworks */,
 				75320BC22AE7B4FB00465860 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				75490DCB2AF11184004CCC9E /* KakaoSDKTalk in Frameworks */,
 				75320BD02AE7B4FB00465860 /* FirebaseCrashlytics in Frameworks */,
 				75F89B712AE54F8A0045FCE5 /* OpenGLES.framework in Frameworks */,
 				75320BC02AE7B4FB00465860 /* FirebaseAnalytics in Frameworks */,
 				75320BCE2AE7B4FB00465860 /* FirebaseAuthCombine-Community in Frameworks */,
 				75320BD62AE7B4FB00465860 /* FirebaseDynamicLinks in Frameworks */,
+				75490DC92AF11184004CCC9E /* KakaoSDKStory in Frameworks */,
 				75320BD92AE7B52000465860 /* GoogleSignIn in Frameworks */,
 				75320BDB2AE7B52000465860 /* GoogleSignInSwift in Frameworks */,
-				7585D1A62AED43AA00C5E988 /* KakaoSDKAuth in Frameworks */,
-				7585D1A82AED43AA00C5E988 /* KakaoSDKCert in Frameworks */,
+				75490DC32AF11184004CCC9E /* KakaoSDKFriendCore in Frameworks */,
+				75490DC72AF11184004CCC9E /* KakaoSDKShare in Frameworks */,
+				75490DC52AF11184004CCC9E /* KakaoSDKNavi in Frameworks */,
+				75490DB92AF11184004CCC9E /* KakaoSDKAuth in Frameworks */,
+				75490E4E2AF114CF004CCC9E /* DaumMap.framework in Frameworks */,
+				75490DBB2AF11184004CCC9E /* KakaoSDKCert in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +227,66 @@
 				7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		75490E0A2AF114CF004CCC9E /* DaumMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				75490E0B2AF114CF004CCC9E /* Resources */,
+				75490E302AF114CF004CCC9E /* Config.xcconfig */,
+			);
+			name = DaumMap.embeddedframework;
+			path = IOS_DaumMap_SDK_1.4.0/lib/DaumMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		75490E0B2AF114CF004CCC9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75490E0C2AF114CF004CCC9E /* map_pinup_custom@3x.png */,
+				75490E0D2AF114CF004CCC9E /* map_pin_custom.png */,
+				75490E0E2AF114CF004CCC9E /* shadow_balloon.png */,
+				75490E0F2AF114CF004CCC9E /* map_pinup.png */,
+				75490E102AF114CF004CCC9E /* detail_button.png */,
+				75490E112AF114CF004CCC9E /* map_pin_custom@3x.png */,
+				75490E122AF114CF004CCC9E /* map_pinup@3x.png */,
+				75490E132AF114CF004CCC9E /* map_pin_shadow@3x.png */,
+				75490E142AF114CF004CCC9E /* copyright.png */,
+				75490E152AF114CF004CCC9E /* th_line.png */,
+				75490E162AF114CF004CCC9E /* map_pin_red@3x.png */,
+				75490E172AF114CF004CCC9E /* daum_copyright.png */,
+				75490E182AF114CF004CCC9E /* map_pin@3x.png */,
+				75490E192AF114CF004CCC9E /* map_present_tracking.png */,
+				75490E1A2AF114CF004CCC9E /* map_pin_red.png */,
+				75490E1B2AF114CF004CCC9E /* Headers */,
+				75490E242AF114CF004CCC9E /* info_box.png */,
+				75490E252AF114CF004CCC9E /* point_sprite.png */,
+				75490E262AF114CF004CCC9E /* map_pinup_custom.png */,
+				75490E272AF114CF004CCC9E /* info_box_tail.png */,
+				75490E282AF114CF004CCC9E /* noimage256.png */,
+				75490E292AF114CF004CCC9E /* map_present_direction.png */,
+				75490E2A2AF114CF004CCC9E /* map_pin.png */,
+				75490E2B2AF114CF004CCC9E /* map_present.png */,
+				75490E2C2AF114CF004CCC9E /* noimage.png */,
+				75490E2D2AF114CF004CCC9E /* map_present_background_update.png */,
+				75490E2E2AF114CF004CCC9E /* daum_th_line.png */,
+				75490E2F2AF114CF004CCC9E /* map_pin_shadow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75490E1B2AF114CF004CCC9E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				75490E1C2AF114CF004CCC9E /* MTMapPOIItem.h */,
+				75490E1D2AF114CF004CCC9E /* MTMapCameraUpdate.h */,
+				75490E1E2AF114CF004CCC9E /* MTMapReverseGeoCoder.h */,
+				75490E1F2AF114CF004CCC9E /* MTMapPolyline.h */,
+				75490E202AF114CF004CCC9E /* MTMapLocationMarkerItem.h */,
+				75490E212AF114CF004CCC9E /* MTMapView.h */,
+				75490E222AF114CF004CCC9E /* MTMapGeometry.h */,
+				75490E232AF114CF004CCC9E /* MTMapCircle.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		75A501662ADA8EAF0045785B = {
@@ -232,7 +309,7 @@
 		75A501712ADA8EAF0045785B /* MomoriUI */ = {
 			isa = PBXGroup;
 			children = (
-				75F89B2C2AE54F510045FCE5 /* DaumMap.embeddedframework */,
+				75490E0A2AF114CF004CCC9E /* DaumMap.embeddedframework */,
 				75F898F92AE23E130045FCE5 /* Info.plist */,
 				75490D5C2AF0ED27004CCC9E /* SecureAPIKeys.plist */,
 				75A501722ADA8EAF0045785B /* MomoriUIApp.swift */,
@@ -324,70 +401,10 @@
 			path = Upload;
 			sourceTree = "<group>";
 		};
-		75F89B2C2AE54F510045FCE5 /* DaumMap.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				7585D1AD2AED46AC00C5E988 /* Config.xcconfig */,
-				75F89B2D2AE54F510045FCE5 /* Resources */,
-				75F89B522AE54F520045FCE5 /* DaumMap.framework */,
-			);
-			name = DaumMap.embeddedframework;
-			path = IOS_DaumMap_SDK_1.4.0/lib/DaumMap.embeddedframework;
-			sourceTree = "<group>";
-		};
-		75F89B2D2AE54F510045FCE5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				75F89B2E2AE54F510045FCE5 /* map_pinup_custom@3x.png */,
-				75F89B2F2AE54F510045FCE5 /* map_pin_custom.png */,
-				75F89B302AE54F510045FCE5 /* shadow_balloon.png */,
-				75F89B312AE54F510045FCE5 /* map_pinup.png */,
-				75F89B322AE54F510045FCE5 /* detail_button.png */,
-				75F89B332AE54F510045FCE5 /* map_pin_custom@3x.png */,
-				75F89B342AE54F510045FCE5 /* map_pinup@3x.png */,
-				75F89B352AE54F510045FCE5 /* map_pin_shadow@3x.png */,
-				75F89B362AE54F510045FCE5 /* copyright.png */,
-				75F89B372AE54F510045FCE5 /* th_line.png */,
-				75F89B382AE54F510045FCE5 /* map_pin_red@3x.png */,
-				75F89B392AE54F510045FCE5 /* daum_copyright.png */,
-				75F89B3A2AE54F520045FCE5 /* map_pin@3x.png */,
-				75F89B3B2AE54F520045FCE5 /* map_present_tracking.png */,
-				75F89B3C2AE54F520045FCE5 /* map_pin_red.png */,
-				75F89B3D2AE54F520045FCE5 /* Headers */,
-				75F89B462AE54F520045FCE5 /* info_box.png */,
-				75F89B472AE54F520045FCE5 /* point_sprite.png */,
-				75F89B482AE54F520045FCE5 /* map_pinup_custom.png */,
-				75F89B492AE54F520045FCE5 /* info_box_tail.png */,
-				75F89B4A2AE54F520045FCE5 /* noimage256.png */,
-				75F89B4B2AE54F520045FCE5 /* map_present_direction.png */,
-				75F89B4C2AE54F520045FCE5 /* map_pin.png */,
-				75F89B4D2AE54F520045FCE5 /* map_present.png */,
-				75F89B4E2AE54F520045FCE5 /* noimage.png */,
-				75F89B4F2AE54F520045FCE5 /* map_present_background_update.png */,
-				75F89B502AE54F520045FCE5 /* daum_th_line.png */,
-				75F89B512AE54F520045FCE5 /* map_pin_shadow.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		75F89B3D2AE54F520045FCE5 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				75F89B3E2AE54F520045FCE5 /* MTMapPOIItem.h */,
-				75F89B3F2AE54F520045FCE5 /* MTMapCameraUpdate.h */,
-				75F89B402AE54F520045FCE5 /* MTMapReverseGeoCoder.h */,
-				75F89B412AE54F520045FCE5 /* MTMapPolyline.h */,
-				75F89B422AE54F520045FCE5 /* MTMapLocationMarkerItem.h */,
-				75F89B432AE54F520045FCE5 /* MTMapView.h */,
-				75F89B442AE54F520045FCE5 /* MTMapGeometry.h */,
-				75F89B452AE54F520045FCE5 /* MTMapCircle.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		75F89B6F2AE54F8A0045FCE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75490E312AF114CF004CCC9E /* DaumMap.framework */,
 				75F89B7B2AE5500D0045FCE5 /* libsqlite3.tbd */,
 				75F89B7A2AE54FF90045FCE5 /* libxml2.tbd */,
 				75F89B782AE54FE70045FCE5 /* CoreLocation.framework */,
@@ -430,11 +447,19 @@
 				75320BD52AE7B4FB00465860 /* FirebaseDynamicLinks */,
 				75320BD82AE7B52000465860 /* GoogleSignIn */,
 				75320BDA2AE7B52000465860 /* GoogleSignInSwift */,
-				7585D1A32AED43AA00C5E988 /* KakaoSDK */,
-				7585D1A52AED43AA00C5E988 /* KakaoSDKAuth */,
-				7585D1A72AED43AA00C5E988 /* KakaoSDKCert */,
-				7585D1A92AED43AA00C5E988 /* KakaoSDKCertCore */,
-				7585D1AB2AED43AA00C5E988 /* KakaoSDKCommon */,
+				75490DB62AF11184004CCC9E /* KakaoSDK */,
+				75490DB82AF11184004CCC9E /* KakaoSDKAuth */,
+				75490DBA2AF11184004CCC9E /* KakaoSDKCert */,
+				75490DBC2AF11184004CCC9E /* KakaoSDKCertCore */,
+				75490DBE2AF11184004CCC9E /* KakaoSDKCommon */,
+				75490DC02AF11184004CCC9E /* KakaoSDKFriend */,
+				75490DC22AF11184004CCC9E /* KakaoSDKFriendCore */,
+				75490DC42AF11184004CCC9E /* KakaoSDKNavi */,
+				75490DC62AF11184004CCC9E /* KakaoSDKShare */,
+				75490DC82AF11184004CCC9E /* KakaoSDKStory */,
+				75490DCA2AF11184004CCC9E /* KakaoSDKTalk */,
+				75490DCC2AF11184004CCC9E /* KakaoSDKTemplate */,
+				75490DCE2AF11184004CCC9E /* KakaoSDKUser */,
 			);
 			productName = MomoriUI;
 			productReference = 75A5016F2ADA8EAF0045785B /* MomoriUI.app */;
@@ -467,7 +492,7 @@
 			packageReferences = (
 				75320BBE2AE7B4FB00465860 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				75320BD72AE7B52000465860 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
 			);
 			productRefGroup = 75A501702ADA8EAF0045785B /* Products */;
 			projectDirPath = "";
@@ -483,36 +508,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75490E482AF114CF004CCC9E /* map_present.png in Resources */,
+				75490E3E2AF114CF004CCC9E /* map_pin@3x.png in Resources */,
+				75490E3C2AF114CF004CCC9E /* map_pin_red@3x.png in Resources */,
+				75490E4D2AF114CF004CCC9E /* Config.xcconfig in Resources */,
+				75490E472AF114CF004CCC9E /* map_pin.png in Resources */,
+				75490E402AF114CF004CCC9E /* map_pin_red.png in Resources */,
+				75490E322AF114CF004CCC9E /* map_pinup_custom@3x.png in Resources */,
+				75490E3A2AF114CF004CCC9E /* copyright.png in Resources */,
+				75490E392AF114CF004CCC9E /* map_pin_shadow@3x.png in Resources */,
 				75490D5D2AF0ED27004CCC9E /* SecureAPIKeys.plist in Resources */,
-				75F89B652AE54F520045FCE5 /* info_box_tail.png in Resources */,
-				75F89B5A2AE54F520045FCE5 /* map_pin_shadow@3x.png in Resources */,
-				75F89B682AE54F520045FCE5 /* map_pin.png in Resources */,
-				75F89B612AE54F520045FCE5 /* map_pin_red.png in Resources */,
-				75F89B592AE54F520045FCE5 /* map_pinup@3x.png in Resources */,
-				75F89B632AE54F520045FCE5 /* point_sprite.png in Resources */,
-				75F89B5F2AE54F520045FCE5 /* map_pin@3x.png in Resources */,
-				75F89B662AE54F520045FCE5 /* noimage256.png in Resources */,
-				75F89B692AE54F520045FCE5 /* map_present.png in Resources */,
-				75F89B5E2AE54F520045FCE5 /* daum_copyright.png in Resources */,
-				75F89B5B2AE54F520045FCE5 /* copyright.png in Resources */,
-				75F89B552AE54F520045FCE5 /* shadow_balloon.png in Resources */,
-				75F89B582AE54F520045FCE5 /* map_pin_custom@3x.png in Resources */,
-				75F89B5C2AE54F520045FCE5 /* th_line.png in Resources */,
-				75F89B642AE54F520045FCE5 /* map_pinup_custom.png in Resources */,
+				75490E3D2AF114CF004CCC9E /* daum_copyright.png in Resources */,
+				75490E412AF114CF004CCC9E /* info_box.png in Resources */,
+				75490E372AF114CF004CCC9E /* map_pin_custom@3x.png in Resources */,
+				75490E4C2AF114CF004CCC9E /* map_pin_shadow.png in Resources */,
+				75490E3F2AF114CF004CCC9E /* map_present_tracking.png in Resources */,
+				75490E362AF114CF004CCC9E /* detail_button.png in Resources */,
+				75490E492AF114CF004CCC9E /* noimage.png in Resources */,
+				75490E3B2AF114CF004CCC9E /* th_line.png in Resources */,
+				75490E442AF114CF004CCC9E /* info_box_tail.png in Resources */,
+				75490E332AF114CF004CCC9E /* map_pin_custom.png in Resources */,
+				75490E432AF114CF004CCC9E /* map_pinup_custom.png in Resources */,
+				75490E382AF114CF004CCC9E /* map_pinup@3x.png in Resources */,
+				75490E422AF114CF004CCC9E /* point_sprite.png in Resources */,
+				75490E4A2AF114CF004CCC9E /* map_present_background_update.png in Resources */,
+				75490E462AF114CF004CCC9E /* map_present_direction.png in Resources */,
+				75490E452AF114CF004CCC9E /* noimage256.png in Resources */,
+				75490E342AF114CF004CCC9E /* shadow_balloon.png in Resources */,
 				75A5017B2ADA8EB00045785B /* Preview Assets.xcassets in Resources */,
-				75F89B6C2AE54F520045FCE5 /* daum_th_line.png in Resources */,
-				75F89B532AE54F520045FCE5 /* map_pinup_custom@3x.png in Resources */,
 				75A501772ADA8EB00045785B /* Assets.xcassets in Resources */,
-				75F89B602AE54F520045FCE5 /* map_present_tracking.png in Resources */,
-				75F89B6D2AE54F520045FCE5 /* map_pin_shadow.png in Resources */,
-				75F89B672AE54F520045FCE5 /* map_present_direction.png in Resources */,
-				75F89B6B2AE54F520045FCE5 /* map_present_background_update.png in Resources */,
-				75F89B572AE54F520045FCE5 /* detail_button.png in Resources */,
-				75F89B5D2AE54F520045FCE5 /* map_pin_red@3x.png in Resources */,
-				75F89B6A2AE54F520045FCE5 /* noimage.png in Resources */,
-				75F89B622AE54F520045FCE5 /* info_box.png in Resources */,
-				75F89B542AE54F520045FCE5 /* map_pin_custom.png in Resources */,
-				75F89B562AE54F520045FCE5 /* map_pinup.png in Resources */,
+				75490E4B2AF114CF004CCC9E /* daum_th_line.png in Resources */,
+				75490E352AF114CF004CCC9E /* map_pinup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +708,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MomoriUI/IOS_DaumMap_SDK_1.4.0/lib/DaumMap.embeddedframework",
+					"$(PROJECT_DIR)/MomoriUI/DaumMap.embeddedframework",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MomoriUI/Info.plist;
@@ -729,6 +756,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MomoriUI/IOS_DaumMap_SDK_1.4.0/lib/DaumMap.embeddedframework",
+					"$(PROJECT_DIR)/MomoriUI/DaumMap.embeddedframework",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MomoriUI/Info.plist;
@@ -800,12 +828,12 @@
 				minimumVersion = 7.0.0;
 			};
 		};
-		7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+		75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.18.1;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -881,30 +909,70 @@
 			package = 75320BD72AE7B52000465860 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
 		};
-		7585D1A32AED43AA00C5E988 /* KakaoSDK */ = {
+		75490DB62AF11184004CCC9E /* KakaoSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDK;
 		};
-		7585D1A52AED43AA00C5E988 /* KakaoSDKAuth */ = {
+		75490DB82AF11184004CCC9E /* KakaoSDKAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKAuth;
 		};
-		7585D1A72AED43AA00C5E988 /* KakaoSDKCert */ = {
+		75490DBA2AF11184004CCC9E /* KakaoSDKCert */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKCert;
 		};
-		7585D1A92AED43AA00C5E988 /* KakaoSDKCertCore */ = {
+		75490DBC2AF11184004CCC9E /* KakaoSDKCertCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKCertCore;
 		};
-		7585D1AB2AED43AA00C5E988 /* KakaoSDKCommon */ = {
+		75490DBE2AF11184004CCC9E /* KakaoSDKCommon */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7585D1A22AED43AA00C5E988 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKCommon;
+		};
+		75490DC02AF11184004CCC9E /* KakaoSDKFriend */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriend;
+		};
+		75490DC22AF11184004CCC9E /* KakaoSDKFriendCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriendCore;
+		};
+		75490DC42AF11184004CCC9E /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		75490DC62AF11184004CCC9E /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		75490DC82AF11184004CCC9E /* KakaoSDKStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKStory;
+		};
+		75490DCA2AF11184004CCC9E /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		75490DCC2AF11184004CCC9E /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		75490DCE2AF11184004CCC9E /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75490DB52AF11184004CCC9E /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
