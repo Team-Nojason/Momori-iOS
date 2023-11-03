@@ -17,7 +17,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>kakao${KAKAO_NATIVE_APP_KEY}</string>
+				<string>kakao${858e9e793fc6c3f9b315843f39f9cca9)</string>
 			</array>
 		</dict>
 	</array>

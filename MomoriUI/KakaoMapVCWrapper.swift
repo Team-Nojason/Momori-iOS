@@ -7,6 +7,9 @@
 
 import Foundation
 import SwiftUI
+import KakaoSDKCommon
+
+
 //import KakaoMapsSDK
 
 struct KakaoMapVCWrapper: UIViewControllerRepresentable {
@@ -29,6 +32,7 @@ class KakaoMapVC: UIViewController {
         mapView.baseMapType = .standard
         
         self.view.addSubview(mapView)
+        
         
         // 중앙에 원 추가
 //        let center = MTMapPointGeo(latitude: 37.5665, longitude: 126.9780) // 중앙 좌표 설정
