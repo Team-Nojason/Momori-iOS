@@ -67,6 +67,9 @@
 		75490E4C2AF114CF004CCC9E /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 75490E2F2AF114CF004CCC9E /* map_pin_shadow.png */; };
 		75490E4D2AF114CF004CCC9E /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 75490E302AF114CF004CCC9E /* Config.xcconfig */; };
 		75490E4E2AF114CF004CCC9E /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75490E312AF114CF004CCC9E /* DaumMap.framework */; };
+		754A2E932AFA296C00B9171D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754A2E922AFA296C00B9171D /* Metal.framework */; };
+		754A2E982AFA2E1F00B9171D /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A2E972AFA2E1F00B9171D /* Circle.swift */; };
+		754A2EA52AFA4AC900B9171D /* TestPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A2EA42AFA4AC900B9171D /* TestPost.swift */; };
 		756848F92AE7D6DB003A5209 /* NaverLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756848F82AE7D6DB003A5209 /* NaverLogin.swift */; };
 		7585D1A12AED31DD00C5E988 /* GoogleSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */; };
 		7585D1AF2AED4DD000C5E988 /* KakaoLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */; };
@@ -138,6 +141,9 @@
 		75490E2F2AF114CF004CCC9E /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
 		75490E302AF114CF004CCC9E /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		75490E312AF114CF004CCC9E /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = MomoriUI/IOS_DaumMap_SDK_1.4.0/lib/DaumMap.embeddedframework/DaumMap.framework; sourceTree = "<group>"; };
+		754A2E922AFA296C00B9171D /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		754A2E972AFA2E1F00B9171D /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		754A2EA42AFA4AC900B9171D /* TestPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPost.swift; sourceTree = "<group>"; };
 		756848F82AE7D6DB003A5209 /* NaverLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLogin.swift; sourceTree = "<group>"; };
 		7585D1A02AED31DD00C5E988 /* GoogleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInView.swift; sourceTree = "<group>"; };
 		7585D1AE2AED4DD000C5E988 /* KakaoLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLogin.swift; sourceTree = "<group>"; };
@@ -186,6 +192,7 @@
 				75320BC42AE7B4FB00465860 /* FirebaseAnalyticsSwift in Frameworks */,
 				75320BD22AE7B4FB00465860 /* FirebaseDatabase in Frameworks */,
 				75F89B772AE54FCD0045FCE5 /* libc++.tbd in Frameworks */,
+				754A2E932AFA296C00B9171D /* Metal.framework in Frameworks */,
 				75320BCA2AE7B4FB00465860 /* FirebaseAppDistribution-Beta in Frameworks */,
 				75F89B7D2AE5502B0045FCE5 /* libxml2.tbd in Frameworks */,
 				75320BC62AE7B4FB00465860 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
@@ -362,6 +369,8 @@
 			isa = PBXGroup;
 			children = (
 				75A5018F2ADA9B350045785B /* MainPage.swift */,
+				754A2E972AFA2E1F00B9171D /* Circle.swift */,
+				754A2EA42AFA4AC900B9171D /* TestPost.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -404,6 +413,7 @@
 		75F89B6F2AE54F8A0045FCE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				754A2E922AFA296C00B9171D /* Metal.framework */,
 				75490E312AF114CF004CCC9E /* DaumMap.framework */,
 				75F89B7B2AE5500D0045FCE5 /* libsqlite3.tbd */,
 				75F89B7A2AE54FF90045FCE5 /* libxml2.tbd */,
@@ -565,7 +575,9 @@
 				75A501992ADAB4260045785B /* Post.swift in Sources */,
 				75490D5B2AF0ECE3004CCC9E /* Key.swift in Sources */,
 				75320BDD2AE7B67D00465860 /* UserData.swift in Sources */,
+				754A2EA52AFA4AC900B9171D /* TestPost.swift in Sources */,
 				7585D1AF2AED4DD000C5E988 /* KakaoLogin.swift in Sources */,
+				754A2E982AFA2E1F00B9171D /* Circle.swift in Sources */,
 				75A501882ADA9AB10045785B /* UserNavi.swift in Sources */,
 				75A501C82ADE9C8E0045785B /* ImageUnderbar.swift in Sources */,
 				75A501902ADA9B350045785B /* MainPage.swift in Sources */,
@@ -734,7 +746,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dgsw8th61/Desktop/GitHub/Momori-iOS/MomoriUI/KakaoBridgeHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dgsw8th61/Desktop/momori_나르샤/MomoriUI/Momori-iOS/MomoriUI/KakaoBridgeHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -782,7 +794,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dgsw8th61/Desktop/GitHub/Momori-iOS/MomoriUI/KakaoBridgeHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dgsw8th61/Desktop/momori_나르샤/MomoriUI/Momori-iOS/MomoriUI/KakaoBridgeHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

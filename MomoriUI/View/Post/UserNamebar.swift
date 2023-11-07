@@ -30,6 +30,7 @@ struct UserNamebar: View {
                     Text("사용자 이름")
                         .font(.system(size: 13))
                         .padding(.trailing,170)
+                //프로필 클릭 후 둘의 사이 170정도 띄웅
                     
                     Text("11시간 전")
                         .font(.system(size: 10))
@@ -48,6 +49,8 @@ struct UserNamebar: View {
                     })
                 }
         }
+        .padding(.top,5)
+
     }
 }
 

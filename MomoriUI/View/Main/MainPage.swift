@@ -14,8 +14,14 @@ struct MainPage: View {
     
     var body: some View {
         ZStack {
+            
+            
             KakaoMapVCWrapper()
                 .edgesIgnoringSafeArea(.all)
+            
+            mmCircle()
+            
+       
             
             VStack{
                 HStack{

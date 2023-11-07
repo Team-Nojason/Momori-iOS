@@ -35,6 +35,8 @@
 		<string>kakaostory-2.9.0</string>
 	</array>
 	<key>UIBackgroundModes</key>
-	<array/>
+	<array>
+		<string>voip</string>
+	</array>
 </dict>
 </plist>

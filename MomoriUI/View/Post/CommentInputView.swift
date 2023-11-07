@@ -19,11 +19,11 @@ import SwiftUI
                 
                 TextField("댓글을 작성하세요", text: $commentText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(1)
-
-                Button(action: {
-        
-                }) {
+                    .frame(width: 250,height: 80)
+                
+                Button {
+                    
+                } label: {
                     Image(systemName: "paperplane")
                         .resizable()
                         .frame(width: 12,height: 13)
@@ -32,11 +32,12 @@ import SwiftUI
                         .background(Colors.Mint.color)
                         .frame(width: 40,height: 35)
                         .cornerRadius(10)
+                        
                 }
+                
             }
-            .padding()
+            
         }
-
 
     }
 

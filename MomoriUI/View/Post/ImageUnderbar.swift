@@ -51,6 +51,12 @@ struct ImageUnderbar: View {
                 
                 
             }
+            .background(
+                Color.white // any non-transparent background
+                    .shadow(color: Color.gray, radius: 4, x: 0, y: 0)
+                    .mask(Rectangle().padding(.bottom, -20))
+                    .opacity(0.4)
+            )
         
        
     }
